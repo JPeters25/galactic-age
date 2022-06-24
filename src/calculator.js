@@ -1,23 +1,26 @@
-export default function BaseAge() {
-  this.age = 100;
+export default class BaseAge  {
+  constructor(){
+    this.age = 100;
+    this.lifeexpt=100;
 }
 
-BaseAge.prototype.earth = function() {
-  this.age=this.age;
-};
+  earth() {
+    this.age=this.age;
+  }
 
-BaseAge.prototype.mercury=function () {
-  this.age = Math.round(this.age/.24);
-};
+  mercury() {
+    this.age = Math.round(this.age/.24);
+  }
 
-BaseAge.prototype.venus=function () {
-  this.age = Math.round(this.age /.62);
-};
+  venus() {
+    this.age = Math.round(this.age /.62);
+  }
 
-BaseAge.prototype.mars=function () {
-  this.age = Math.round(this.age /1.88);
-};
+  mars() {
+    this.age = Math.round(this.age /1.88);
+  }
 
-BaseAge.prototype.jupiter=function () {
-  this.age = Math.round(this.age /11.86);
-};
+  jupiter() {
+    this.age = Math.round(this.age /11.86);
+  }
+}
