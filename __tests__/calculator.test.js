@@ -80,5 +80,11 @@ describe('BaseAge', () => {
     expect(venLife.yearLeft).toEqual(32);
   });
 
+  test('Should return life remaining on Mars',()=> {
+    const marLife =new BaseAge();
+    marLife.mars();
+    expect(marLife.yearLeft).toEqual(10);
+  })
+
   
 });
