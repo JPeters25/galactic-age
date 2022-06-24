@@ -1,4 +1,4 @@
-import BaseAge from '../src/calculator';
+import BaseAge from '../js/calculator';
 
 describe('BaseAge', () => {
 
