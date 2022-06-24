@@ -1,8 +1,8 @@
 export default class BaseAge  {
-  constructor(age, lifeExp) {
+  constructor() {
     this.age = 80;
     this.lifeExp=100;
-}
+  }
 
   earth() {
     this.age=this.age;

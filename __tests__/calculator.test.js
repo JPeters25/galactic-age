@@ -61,4 +61,10 @@ describe('BaseAge', () => {
     jupExp.jupiter();
     expect(jupExp.lifeExp).toEqual(8);
   });
+
+  test('Should return life remaining on Earth', ()=> {
+    const earLife = new BaseAge();
+    earLife.earth();
+    expect(earLife.yearLeft).toEqual(0);
+  });
 });
