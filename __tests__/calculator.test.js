@@ -34,8 +34,8 @@ describe('BaseAge', () => {
 
   test('Should return life expectancy if on earth', ()=> {
     const earthExp = new BaseAge();
-    expect(earthExp.lifeExpt).toEqual(0);
+    earthExp.earthLife();
+    expect(earthExp.lifeExp).toEqual(0);
   });
-
 
 });

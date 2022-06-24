@@ -24,5 +24,9 @@ export default class BaseAge  {
     this.age = Math.round(this.age /11.86);
   }
 
-  
+  earthLife() {
+    this.lifeExp = this.age-this.lifeExp;
+  }
+
+
 }
