@@ -69,22 +69,27 @@ describe('BaseAge', () => {
   });
 
   test('Should return life remaining on Mercury', ()=> {
-    const mercLife =new BaseAge();
+    const mercLife = new BaseAge();
     mercLife.mercury();
     expect(mercLife.yearLeft).toEqual(84);
   });
 
   test('Should return life remaining on Venus', ()=> {
-    const venLife =new BaseAge();
+    const venLife = new BaseAge();
     venLife.venus();
     expect(venLife.yearLeft).toEqual(32);
   });
 
   test('Should return life remaining on Mars',()=> {
-    const marLife =new BaseAge();
+    const marLife = new BaseAge();
     marLife.mars();
     expect(marLife.yearLeft).toEqual(10);
   });
 
+  test('Should return life remaining on Jupiter',()=>{
+    const jupLife = new BaseAge();
+    jupLife.jupiter();
+    expect(jupLife.yearLeft).toEqual(1);
+  })
   
 });
