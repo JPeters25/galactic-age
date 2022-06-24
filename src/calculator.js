@@ -7,13 +7,13 @@ BaseAge.prototype.earth = function() {
 };
 
 BaseAge.prototype.mercury=function () {
-  this.age *= .24;
+  this.age = Math.round(this.age/.24);
 };
 
 BaseAge.prototype.venus=function () {
-  this.age *= .62;
+  this.age = Math.round(this.age /.62);
 };
 
 BaseAge.prototype.mars=function () {
-  this.age *= 1.88;
+  this.age = Math.round(this.age /1.88);
 };
