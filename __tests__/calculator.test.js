@@ -54,5 +54,5 @@ describe('BaseAge', () => {
     const marExp = new BaseAge();
     marExp.mars();
     expect(marExp.lifeExp).toEqual(53);
-  })
+  });
 });
