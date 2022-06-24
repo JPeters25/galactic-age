@@ -3,7 +3,7 @@ export default function BaseAge() {
 }
 
 BaseAge.prototype.earth = function() {
-  return this.age;
+  this.age=this.age;
 };
 
 BaseAge.prototype.mercury=function () {
@@ -14,4 +14,6 @@ BaseAge.prototype.venus=function () {
   this.age *= .62;
 };
 
-
+BaseAge.prototype.mars=function () {
+  this.age *= 1.88;
+};
