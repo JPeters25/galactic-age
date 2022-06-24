@@ -1,5 +1,5 @@
 export default function BaseAge(age) {
-  this.age = age;
+  this.age = 10;
 }
 
 BaseAge.prototype.earth = function() {
