@@ -84,7 +84,7 @@ describe('BaseAge', () => {
     const marLife =new BaseAge();
     marLife.mars();
     expect(marLife.yearLeft).toEqual(10);
-  })
+  });
 
   
 });
