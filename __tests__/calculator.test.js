@@ -73,4 +73,12 @@ describe('BaseAge', () => {
     mercLife.mercury();
     expect(mercLife.yearLeft).toEqual(84);
   });
+
+  test('Should return life remaining on Venus', ()=> {
+    const venLife =new BaseAge();
+    venLife.venus();
+    expect(venLife.yearLeft).toEqual(32);
+  });
+
+  
 });
