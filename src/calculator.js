@@ -1,17 +1,17 @@
 export default class BaseAge  {
   constructor(){
-    this.age = 100;
+    this.age = 80;
     this.lifeExp=100;
 }
 
   earth() {
     this.age=this.age;
-    this.lifeExp = this.lifeExp-this.age;
+    this.lifeExp = this.lifeExp;
   }
 
   mercury() {
     this.age = Math.round(this.age/.24);
-    this.lifeExp = this.age-this.lifeExp;
+    this.lifeExp = Math.round(this.lifeExp/.24);
   }
 
   venus() {
