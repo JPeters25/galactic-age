@@ -6,7 +6,7 @@ describe('BaseAge', () => {
     const earthAge = new BaseAge();
     earthAge.earth();
     expect(earthAge.age).toEqual(10);
-});
+  });
 
   test('Should return age in Mercury Years', () => {
     const mercAge = new BaseAge();

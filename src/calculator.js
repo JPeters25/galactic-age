@@ -9,3 +9,7 @@ BaseAge.prototype.earth = function() {
 BaseAge.prototype.mercury=function () {
   this.age *= .24;
 };
+
+BaseAge.prototype.venus=function () {
+  this.age *= .62;
+};
