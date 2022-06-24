@@ -72,5 +72,5 @@ describe('BaseAge', () => {
     const mercLife =new BaseAge();
     mercLife.mercury();
     expect(mercLife.yearLeft).toEqual(84);
-  })
+  });
 });
