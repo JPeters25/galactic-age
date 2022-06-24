@@ -41,6 +41,6 @@ describe('BaseAge', () => {
   test('Should return life expectancy remaining on mercury', ()=> {
     const mercExp = new BaseAge();
     mercExp.mercury();
-    expect(mercExp.lifeExp).toEqual(-317);
+    expect(mercExp.lifeExp).toEqual(317);
   });
 });

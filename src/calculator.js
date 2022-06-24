@@ -6,11 +6,12 @@ export default class BaseAge  {
 
   earth() {
     this.age=this.age;
-    this.lifeExp = this.age-this.lifeExp;
+    this.lifeExp = this.lifeExp-this.age;
   }
 
   mercury() {
     this.age = Math.round(this.age/.24);
+    this.lifeExp = this.age-this.lifeExp;
   }
 
   venus() {
