@@ -59,6 +59,6 @@ describe('BaseAge', () => {
   test('Should return life expectancy on Jupiter', ()=> {
     const jupExp = new BaseAge();
     jupExp.jupiter();
-    expect(jupExp.lifeExp).toEqual(8)
+    expect(jupExp.lifeExp).toEqual(8);
   });
 });

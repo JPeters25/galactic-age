@@ -26,6 +26,7 @@ export default class BaseAge  {
 
   jupiter() {
     this.age = Math.round(this.age /11.86);
+    this.lifeExp = Math.round(this.lifeExp/11.86);
   }
 
 }
