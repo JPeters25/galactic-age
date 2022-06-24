@@ -1,7 +1,7 @@
 export default class BaseAge  {
   constructor(){
     this.age = 100;
-    this.lifeexpt=100;
+    this.lifeExp=100;
 }
 
   earth() {
@@ -23,4 +23,6 @@ export default class BaseAge  {
   jupiter() {
     this.age = Math.round(this.age /11.86);
   }
+
+  
 }

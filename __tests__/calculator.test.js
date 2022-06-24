@@ -30,6 +30,12 @@ describe('BaseAge', () => {
     const jupAge = new BaseAge();
     jupAge.jupiter();
     expect(jupAge.age).toEqual(8);
-  })
+  });
+
+  test('Should return life expectancy if on earth', ()=> {
+    const earthExp = new BaseAge();
+    expect(earthExp.lifeExpt).toEqual(0);
+  });
+
 
 });
