@@ -38,4 +38,10 @@ describe('BaseAge', () => {
     expect(earthExp.lifeExp).toEqual(0);
   });
 
+  test('Should return life expectancy remaining on mercury', ()=> {
+    const mercExp = new BaseAge();
+    mercExp.mercLife();
+    expect(mercExp.lifeExp).toEqual(-317);
+  })
+
 });
