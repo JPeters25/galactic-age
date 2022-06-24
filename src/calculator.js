@@ -2,11 +2,13 @@ export default class BaseAge  {
   constructor() {
     this.age = 80;
     this.lifeExp=100;
+    this.yearLeft=("");
   }
 
   earth() {
     this.age=this.age;
     this.lifeExp = this.lifeExp;
+    this.yearLeft = this.lifeExp-this.age;
   }
 
   mercury() {

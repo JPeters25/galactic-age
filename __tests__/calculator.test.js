@@ -65,6 +65,12 @@ describe('BaseAge', () => {
   test('Should return life remaining on Earth', ()=> {
     const earLife = new BaseAge();
     earLife.earth();
-    expect(earLife.yearLeft).toEqual(0);
+    expect(earLife.yearLeft).toEqual(20);
   });
+
+  test('Should return life remaining on Mercury', ()=> {
+    const mercLife =new BaseAge();
+    mercLife.mercury();
+    expect(mercLife.yearLeft).toEqual(84);
+  })
 });
