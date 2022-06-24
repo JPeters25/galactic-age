@@ -19,4 +19,11 @@ describe('BaseAge', () => {
     venAge.venus();
     expect(venAge.age).toEqual(6.2);
   });
+
+  test('Should return age in Mars Years', ()=> {
+    const marAge = new BaseAge();
+    marAge.mars();
+    expect(marAge.age).toEqual(18.8);
+  });
+
 });

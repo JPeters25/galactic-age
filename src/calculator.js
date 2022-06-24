@@ -1,4 +1,4 @@
-export default function BaseAge(age) {
+export default function BaseAge() {
   this.age = 10;
 }
 
@@ -13,3 +13,5 @@ BaseAge.prototype.mercury=function () {
 BaseAge.prototype.venus=function () {
   this.age *= .62;
 };
+
+
