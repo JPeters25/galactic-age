@@ -11,6 +11,6 @@ describe('BaseAge', () => {
   test('Should return age in Mercury Years', () => {
     const mercAge = new BaseAge(10);
     mercAge.mercury();
-    expect(mercAge.age).toEqual(2.4)
+    expect(mercAge.age).toEqual(2.4);
   });
 });
