@@ -49,4 +49,10 @@ describe('BaseAge', () => {
     venExp.venus();
     expect(venExp.lifeExp).toEqual(161);
   });
+
+  test('Should return life expectancy on mars', ()=> {
+    const marExp = new BaseAge();
+    marExp.mars();
+    expect(marExp.lifeExp).toEqual(53);
+  })
 });
