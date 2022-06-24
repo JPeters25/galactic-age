@@ -17,3 +17,7 @@ BaseAge.prototype.venus=function () {
 BaseAge.prototype.mars=function () {
   this.age = Math.round(this.age /1.88);
 };
+
+BaseAge.prototype.jupiter=function () {
+  this.age = Math.round(this.age /11.86);
+};
