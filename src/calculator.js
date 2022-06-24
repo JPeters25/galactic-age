@@ -6,6 +6,7 @@ export default class BaseAge  {
 
   earth() {
     this.age=this.age;
+    this.lifeExp = this.age-this.lifeExp;
   }
 
   mercury() {
@@ -24,9 +25,4 @@ export default class BaseAge  {
     this.age = Math.round(this.age /11.86);
   }
 
-  earthLife() {
-    this.lifeExp = this.age-this.lifeExp;
-  }
-
-  
 }
